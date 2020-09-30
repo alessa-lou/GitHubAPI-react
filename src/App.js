@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 
 import Grid from '@material-ui/core/Grid';
-import GitHubRepo from './GitHubRepo'
+import GitHubRepo from './GitHubRepoNew'
+import GitHubRepoNew from './GitHubRepoNew'
 
 function App() {
   return (
@@ -13,10 +14,11 @@ function App() {
           </Grid>
           <Grid item xs={4}>
           </Grid>
-          <Grid item xs={4}> Your GitHub name:
+          <Grid item xs={4}>Your Github Repos:
           <GitHubRepo />
           </Grid>
-          <Grid item xs={4}>
+          <Grid item xs={4}>Your Pinned Repos:
+          <GitHubRepoNew />
           </Grid>
         </Grid>
       </header>
